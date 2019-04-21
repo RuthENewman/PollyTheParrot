@@ -1,0 +1,1 @@
+const synth = window.speechSynthesis;
