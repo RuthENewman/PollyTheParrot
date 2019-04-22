@@ -21,18 +21,16 @@
       id="text-input"
       >
       </textarea>
-    </form>
-    <form>
-      <label for="rate">Rate</label>
-      <div id="rate-value">1</div>
-      <input type="range" id="rate" min="0.5" max="2" value="1" step="0.1"/>
-    </form>
-    <form>
+      <div class="rate">
+        <label for="rate">Rate</label>
+        <div id="rate-value">1</div>
+        <input type="range" id="rate" min="0.5" max="2" value="1" step="0.1"/>
+      </div>
+      <div>
       <label for="pitch">Pitch</label>
       <div id="pitch-value">1</div>
       <input type="range" id="pitch" min="0" max="2" value="1" step="0.1"/>
-    </form>
-    <form>
+      </div>
       <select id="voice-select"></select>
       <button id="submit-btn">Make Polly talk</button>
     </form>
